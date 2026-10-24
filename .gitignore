@@ -1,0 +1,52 @@
+# ========== 系统与编辑器 ==========
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ========== Office / WPS 临时文件 ==========
+.~*
+~$*
+*.tmp
+*.bak
+
+# ========== 环境变量与密钥（严禁提交，防止泄露） ==========
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# ========== RAG 运行产物（体积大，不入库） ==========
+# 向量数据库
+chroma_db/
+chroma.sqlite3
+vectorstore/
+# BM25 索引
+*.bm25
+*.pkl
+# 下载的模型权重
+models/
+*.bin
+*.safetensors
+*.gguf
+# 解析中间产物
+output/
+cache/
+
+# ========== 大数据集（PDF 数据集如过大，按需调整） ==========
+# 注意：学习资料类 PDF 保留，仅忽略后续数据目录
+craft-rag/data/raw_pdfs/
+craft-rag/data/parsed/
