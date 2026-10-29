@@ -5,6 +5,11 @@ Thumbs.db
 .idea/
 *.swp
 
+# ========== AI 辅助工具缓存（不入库） ==========
+.workbuddy/
+.cache/
+.slidep/
+
 # ========== Office / WPS 临时文件 ==========
 .~*
 ~$*
@@ -50,5 +55,4 @@ cache/
 # 注意：学习资料类 PDF 保留，仅忽略后续数据目录
 craft-rag/data/raw_pdfs/
 craft-rag/data/parsed/
-.workbuddy/
 .DS_Store
