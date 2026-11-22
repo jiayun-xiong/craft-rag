@@ -1,0 +1,24 @@
+{"id": "M1-01", "kind": "表格条件与单位", "question": "B196C中，HB180～280的碳钢或合金钢，负角外圆刀片、一般精加工、MC6015配FP断屑槽时，每转进给推荐范围是多少？", "expected": "0.08～0.25 mm/rev", "source": "MMC-B196C.pdf", "pdf_page": 19, "printed_page": "18", "check": "必须同时定位上表及对应刀片行，不能引用下方正角刀片表"}
+{"id": "M1-02", "kind": "条件不足", "question": "只有MC6025这个牌号，能否据此唯一确定每转进给量？", "expected": "不能。需要确认工件材料和硬度、刀片类型、加工工况及断屑槽等条件。", "source": "MMC-B196C.pdf", "pdf_page": 19, "printed_page": "18", "check": "不得随意取某一行数值"}
+{"id": "H1-01", "kind": "图文关联", "question": "Haas 2011手册的G71 Type I阶梯轮廓图上，哪些标注分别表示起始程序段和结束程序段？", "expected": "P对应起始程序段，Q对应结束程序段。", "source": "Haas-2011.pdf", "pdf_page": 220, "printed_page": "209", "check": "区分图中的S（起始位置）与P（起始程序段）"}
+{"id": "H1-02", "kind": "歧义消解", "question": "如果只提供O0071这个程序号，能否唯一定位该手册中的加工案例？", "expected": "不能。阶梯轮廓和端面槽示例均使用该编号，需要附加循环类型或页码。", "source": "Haas-2011.pdf", "pdf_pages": [220, 231], "check": "需给出两个不同案例的证据"}
+{"id": "T1-01", "kind": "工序与设备", "question": "论文中的传动轴，粗车和半精车、精车分别分配到哪台机床？", "expected": "粗车为CA6140，半精车和精车为CK3665。", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 3, "check": "依据表1，同时核对工序和设备型号"}
+{"id": "T1-02", "kind": "转工序", "question": "在该传动轴案例中，键槽是否由承担精车的CK3665完成？", "expected": "键槽分配给XD-40A铣床。", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 3, "check": "回答限于本案例，不能据此推断所有车床的能力"}
+{"id": "A07", "question": "论文传动轴材料及调质后的硬度范围？", "expected": "45钢；220–250 HB", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 1}
+{"id": "A08", "question": "论文传动轴的粗车使用哪种普通车床？", "expected": "CA6140", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 3}
+{"id": "A09", "question": "传动轴论文中 CK3665 数控车床的规格是多少？", "expected": "Φ360×650", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 3}
+{"id": "A10", "question": "论文的传动轴铣键槽工装用什么定位夹具？", "expected": "V形块和分度头", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 4}
+{"id": "A11", "question": "论文中的M22×1.5螺纹用什么量具？", "expected": "螺纹通规/螺纹规", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 5}
+{"id": "A12", "question": "论文对轴颈表面粗糙度用什么检验仪器？", "expected": "表面粗糙度仪", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 5}
+{"id": "A13", "question": "传动轴论文表1的铣床规格是多少？", "expected": "600×520×420", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 3}
+{"id": "A14", "question": "三菱手册中负角刀片MC6015、FP，HB180–280碳钢、一般精加工的切削速度范围？", "expected": "230–395 m/min", "source": "MMC-B196C.pdf", "pdf_page": 19}
+{"id": "A15", "question": "三菱手册中负角刀片MC6015、FP，HB180–280碳钢、一般精加工的切深范围？", "expected": "0.10–1.00 mm", "source": "MMC-B196C.pdf", "pdf_page": 19}
+{"id": "A16", "question": "三菱的7°正角外圆刀片，软钢硬度低于HB180，MC6015用FP或FV一般精加工，每转进给多少？", "expected": "0.04–0.20 mm/rev", "source": "MMC-B196C.pdf", "pdf_page": 19}
+{"id": "A17", "question": "三菱B196C，负角MC6025配FP，不稳定精加工HB180～280碳钢，推荐切削速度？", "expected": "230–375 m/min", "source": "MMC-B196C.pdf", "pdf_page": 19}
+{"id": "A18", "question": "Haas 2011示例中 G74 用于哪种槽加工？", "expected": "端面切槽", "source": "Haas-2011.pdf", "pdf_page": 231}
+{"id": "A19", "question": "Haas 2011手册阶梯轮廓G71 Type I例子的程序编号是什么？", "expected": "O0071", "source": "Haas-2011.pdf", "pdf_page": 220}
+{"id": "A20", "question": "论文给出的传动轴同轴度相对于哪个基准？", "expected": "A", "source": "IJCA-transmission-shaft.pdf", "pdf_page": 2}
+{"id": "U21", "question": "请给出车间昨天的实际产量和订单数量", "expected": "资料不足", "source": null, "pdf_page": null}
+{"id": "U22", "question": "给出公司正在使用的真实卡盘序列号", "expected": "资料不足", "source": null, "pdf_page": null}
+{"id": "U23", "question": "用这份工艺资料预测下一期开奖号", "expected": "资料不足", "source": null, "pdf_page": null}
+{"id": "U24", "question": "给出本车间的2026年11月电费金额", "expected": "资料不足", "source": null, "pdf_page": null}

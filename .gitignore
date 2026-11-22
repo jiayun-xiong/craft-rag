@@ -56,3 +56,7 @@ cache/
 craft-rag/data/raw_pdfs/
 craft-rag/data/parsed/
 .DS_Store
+
+# 本地采集的第三方原始样本
+/data/raw_pdfs/
+/data/cad/

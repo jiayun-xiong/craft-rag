@@ -1,0 +1,11 @@
+{
+  "n": 24,
+  "median_s": 5.73,
+  "p95_s": 9.338,
+  "max_s": 9.529,
+  "within15": 24,
+  "rss_peak_mib": 213.296875,
+  "errors": 0,
+  "all_expected_pages": 20,
+  "out_of_scope_refusals": 4
+}
